@@ -1,0 +1,34 @@
+
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	quotepath = false
+	excludesfile = 
+	autoCRLF = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+[push]
+	default = simple
+[alias]
+	fpush = push --force-with-lease
+	ss = status -unormal
+	co = checkout
+	ba = branch -a
+	br = branch
+	ll = log --oneline
+	lll = log --name-status
+	lp = log -p
+	lh = log --pretty=oneline
+	showb = show-branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	graph = log --oneline --graph --all --decorate=full
+	save = stash save
+	pop = stash pop
+	sh0 = stash show stash@{0}
+	stl = stash list
+	ignored = status --ignored
+[gui]
+	encoding = utf-8
+
