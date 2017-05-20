@@ -13,7 +13,7 @@
 	default = simple
 [alias]
 	fpush = push --force-with-lease
-	ss = status -unormal
+	ss = status -uall
 	co = checkout
 	ba = branch -a
 	br = branch
