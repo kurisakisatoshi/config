@@ -3,7 +3,7 @@
     <searchResultIndication color="#FF00FF" />
     <filteredSearchResultIndication color="#FF00FF" />
     <occurrenceIndication color="#FF8C00" />
-    <writeOccurrenceIndication color="#00BB00" />
+    <writeOccurrenceIndication color="#009900" />
     <findScope color="#111111" />
     <deletionIndication color="#000000" underline="false" strikethrough="false" />
     <sourceHoverBackground color="#000000" />
